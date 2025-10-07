@@ -1,5 +1,4 @@
-"""
-# 關係運算
+#%% 關係運算
 k=10
 i='T' > 'C'
 j=((7+i)==k)
@@ -7,20 +6,16 @@ m=8+(10<55)*3+(30!=89)*4
 
 print(f"Display as str: i={i} j={j} m={m}")
 print(f"Show as int: i={int(i)} j={int(j)} m={int(m)}")
-"""
 
-"""
-# 邏輯運算
+#%% 邏輯運算
 a=5
 b=9
 i=(b==7) and (a>4)
 j=(a+b==14) or (b<3)
 k=not((a<=b) and (a<b) or ('A' > 'C'))
 print(f"i={i} j={j} k={k}")
-"""
 
-"""
-# if
+#%% if
 score=int(input("請輸入成績(0-100): "))
 if score >= 60:
     print("及格啦~")
@@ -28,19 +23,15 @@ if score >= 55 and score < 60:
     print("給你通融過關啦~")
 if score < 58:
     print("沒救了，就是不及格啦~")
-"""
 
-"""
-# if else
+#%% if else
 age=int(input("請輸入年齡: "))
 if age < 10  or age >= 65:
     print("您可購買優待半票")
 else:
    print("您須購買一般全票")
-"""
 
-"""
-# 巢狀if else
+#%% 巢狀if else
 a=int(input("請輸入第一個正數: "))
 b=int(input("請輸入第二個正數: "))
 c=int(input("請輸入第三個正數: "))
@@ -56,9 +47,8 @@ else:
     else:
         max_int=c
 print(f"三數之中最大的是{max_int}")
-"""
 
-# else if
+#%% else if
 price=float(input("輸入價格: "))
 if price > 100000:
     price *= 0.8
