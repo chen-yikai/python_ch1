@@ -1,4 +1,4 @@
-#%%
+#%% print基本語法
 print("My python journey with TAI\n")
 name="elias"
 age=19
@@ -16,15 +16,13 @@ print("圓面積:",length**2 * 3.14)
 print("圓周長:",round(length * 2 * 3.14,2))
 print("圓球體積:",round((4/3)*3.14 * length**3,2))
 
-#%%
-print("自動型別轉換")
+#%% 自動型別轉換
 b,i,f = True, 2, 3.4
 print(b+i,b+f,i+f)
 print(b-i,b-f,i-f)
 print(b*i,b*f,i*f)
 
-#%%
-print("強制型別轉換")
+#%% 強制型別轉換
 i1=10
 f1=float(i1)
 num=5.544
@@ -38,8 +36,7 @@ print(numbers,numbers_text,type(numbers_text))
 bool_value=bool(numbers)
 print(bool_value)
 
-#%%
-print("print函式")
+#%% print函式
 print("Python",2.7)
 print('Japan','Taiwan','French',sep=',')
 print("Hsinchu","Taipei",sep='\t\t')
@@ -47,21 +44,19 @@ print("Price",end=':')
 price=90
 print("hamburger",price,"dollar")
 
-#%%
+#%% print format 用法
 print("%c%s先生"%('張','無忌'))
 wt,price=30,20.5
 print("香蕉%d斤,共%.1f元"%(wt,wt*price))
 
-#%%
-print("\n混合運算")
+#%% 混合運算
 n1=18
 n2=7
 n3=12.9
 t=(n1%n2*21)//2.0**3.0-n2
 print(t)
 
-#%%
-print("\n字串練習")
+#%% 字串練習
 n1="Hello"
 n2="World"
 strSum=n1+n2
