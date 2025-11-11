@@ -25,3 +25,11 @@ print("此字串資料由大到小排序後: ",end="")
 nums.sort(reverse=True)
 for i in nums:
     print(i,end="\t")
+#%% 二維陣列
+list=[["Elias",15],["Kitty",5],["Bunny",2]]
+list1=["meow",10,True,0.555]
+print(list[1])
+print(list[2][1])
+print()
+print(len(list))
+print(len(list1))
